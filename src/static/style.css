@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+   padding: 0;
 }
 
 body{
@@ -11,7 +11,7 @@ body{
     grid-template-columns: 1fr 2fr;
     align-items: start;
     gap: 5px;
-    background-color: whitesmoke;
+    background-color: rgb(241, 237, 246);
     width: 85%;
     margin: auto;
 }
@@ -36,7 +36,9 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: rgb(232, 229, 226);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 main {
@@ -49,25 +51,28 @@ main {
     grid-column-start: 1;
     grid-column-end: -1;
     height: 80vh;
-    background-color: azure;
+    background-color: rgb(244, 243, 237);
 }
 
 aside{
 
     height: 100%;
-    background-color: aqua;
+    background-color: rgb(217, 225, 231);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 section {
-
     grid-column-start: 2;
     grid-column-end: -1;
-    background-color: blueviolet;
 }
 
 
 article{
-    background-color: pink;
+    background-color: rgb(224, 232, 245);
+    padding-left: 10px;
+    padding-right: 10px;
+ 
 }
 
 
@@ -76,6 +81,8 @@ footer {
     grid-column-start: 1;
     grid-column-end: -1;
     height: 8vh;
-    background-color: bisque;
+    background-color: rgb(232, 229, 226);
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
