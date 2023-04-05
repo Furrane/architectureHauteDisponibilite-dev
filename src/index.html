@@ -66,11 +66,45 @@
                             <li>configuration de serveur apache pour servir worpress</li>
                             <li>faire une ancre vers le site</li>
                             <li>relancer apache <code>systemctl restart httpd</code></li>
+                            <li> dnf module -y install php:7.2/common</li>
+                            <li>dnf module list mysql</li>
+                            <li>dnf install @mysql</li>
+                            <li>sudo systemctl enable mysqld</li>
+                            <li>sudo systemctl start mysqld </li>
+                            <li> sudo systemctl status mysqld </li>
+                            <li><a href="https://www.tecmint.com/install-mysql-in-rocky-linux/">tuto</a></li>
+                            <li>sudo mysql -u root -p</li>
+                            <li><a href="https://www.hostinger.fr/tutoriels/creer-un-utilisateur-mysql">https://www.hostinger.fr/tutoriels/creer-un-utilisateur-mysql</a></li>
+                            <li>mysql> create user 'gilles'@'localhost' identified by '1234ADMIn$';
+                            </li>
+                            <li> grant all privileges on *.* to 'gilles'@'localhost';</li>
+                            <li>mysql> flush privileges;</li>
+                            <li> mysql -u 'gilles' -p
+                            </li>
+                            <li><a href="https://fr.wikihow.com/cr%C3%A9er-une-base-de-donn%C3%A9es-MySQL">Creer une base</a></li>
+                            <li> show databases;</li>
+                            <li> create database base1 ;</li>
+                            <li>show databases;</li>
+                            <li> use base1</li>
+                            <li> create table table1 (id int not null primary key);</li>
+                            <li>mysql> create table table1 (id int not null primary key);</li>
+                            <li>mysql> insert into table1 (id) values(3);</li>
+                            <li>Ca marche</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
                             <li></li>
                         </li>
                     </ol>
                 </article>
-            </section>
+            </section>\
         </main>
         <footer>
             le footer est la
