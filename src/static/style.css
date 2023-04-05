@@ -21,7 +21,7 @@ header {
     height: 8vh;
     grid-column-start: 1;
     grid-column-end: -1;
-    background-color: rgb(217, 198, 235);
+
     
 }
 
@@ -36,7 +36,6 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(232, 229, 226);
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -50,14 +49,13 @@ main {
   
     grid-column-start: 1;
     grid-column-end: -1;
-    height: 80vh;
-    background-color: rgb(244, 243, 237);
+
+
 }
 
 aside{
 
     height: 100%;
-    background-color: rgb(217, 225, 231);
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -69,7 +67,7 @@ section {
 
 
 article{
-    background-color: rgb(224, 232, 245);
+
     padding-left: 10px;
     padding-right: 10px;
  
