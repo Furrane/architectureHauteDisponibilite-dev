@@ -116,20 +116,24 @@
                     <p class="lead">Le choix du CMS c'est porté sur WORDPRESS. Il s'agit dún CMS gratuit et open-source. Il couvre 70% du marché et est simple d'utilisation. Ce dernier point étant un pré requis du client. </p>
                 </article>
                 <article>
-                    <h4>Installation de rocky linux 8 version minimale</h4>
-                    <p>Pour la version correspondant au premier sprint, l'installation de wordpress, du serveur web et de la base de données se fait sur une machine de teste sur un serveur Rocky linus en version minimale.</p>
-                    <h5>Etapes d'installation0</h5>
+                    <h4>Installation des scripts</h4>
+                    <p><em>Les procédures d'installation ont vocation à être automatisée via le script d'installation<br>
+                      Le pas à pas est conservé ici à des fins de documentation et de maintenance.</em></p>
+                    <h5>Serveur WEB et BDD correspondant au Sprint 1 (Apache + PhP + MySQL +WordPress)</h5>
+                    
+                    <p>Pour la version correspondant au premier sprint, l'installation de wordpress, du serveur web et de la base de données se fait sur une VM <a href="#installVMRockyServeur">Rocky Linux 8 serveur</a></p>
+                    <h6>Etapes d'installation0</h6>
                     <ol>
-                        <li> Installation de l'iso de Rocky linux en tant que machine virtuelle
+                        <!-- <li> Installation de l'iso de Rocky linux en tant que machine virtuelle
                             <ul>
                                 <li>Hyperviseur utilisé : Virtualbox</li>
                                 <li>Installation classique de l iso </li>
                                 <li>Ajout du proxy http://proxy*******  en dernière ligne dans le fichier de configuration (/etc/dnf.conf ) <code></code></li>
                                 <li>Mise à jour de Rocky linux <code>sudo dnf  update</code></li>
                             </ul>
-                            <p>La machine est prête pour l'installation de LAMP</p>
+                            <p>La machine est prête pour l'installation de LAMP</p> -->
                             <li>Installation du serveur apache</li>
-                            <li><ul><li>
+                            <!-- <li><ul><li> -->
                                 <li><a href="https://www.tecmint.com/install-wordpress-on-rocky-linux/">lib for wordpress</a></li>
                                 <code>dnf install httpd</code>
                                 <code>systemctl enable httpd </code>
